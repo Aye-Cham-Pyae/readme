@@ -1,0 +1,8 @@
+6.Install package in command line
+   -> composer require laravel/jetstream
+   -> php artisan jetstream:install livewire
+   -> php artisan jetstream:install inertia
+   -> npm install
+   -> npm run dev
+10.Create Controller in command line
+	php artisan make:controller GenreController -r
