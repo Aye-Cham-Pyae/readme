@@ -32,3 +32,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 // Gener 
 Route::resource('/genre',GenreController::class);
+
+
+
