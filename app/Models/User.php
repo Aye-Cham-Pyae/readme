@@ -26,6 +26,8 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'phone',
+        'address',
         'password',
     ];
 
@@ -58,4 +60,7 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function orders(){
+        return $this->hasMany('App\Models\Order');
 }
